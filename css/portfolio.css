@@ -2,6 +2,7 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   color: black;
+  background-color: #f6f6f6;
 }
 .navbar-brand {
   padding: 0px;
@@ -22,8 +23,22 @@ body {
   color: white;
   background-color: #b90540;
 }
-.jumbotron, .container-fluid, #about {
+#home {
   padding: 100px 25px;
+  background: url('../images/sailboat-on-ocean.jpg') no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+}
+.page-view {
+  min-height: 100vh;
+}
+
+#about {
+  padding-top: 90px;
+}
+h1.title {
+  padding-top: 3em;
+  font-size: 4em;
 }
 .large-font {
   font-size: 1.2em;
@@ -36,7 +51,7 @@ body {
   background-color: #b90504;
 }
 .container-fluid {
-  padding: 60px 50px;
+  padding-top: 90px;
 }
 .thumbnail {
   padding: 0 0 15px 0;
@@ -58,49 +73,6 @@ div ul>li {
 .fa-pencil, .fa-cogs, .fa-code, .fa-cubes, .fa-dashboard, .fa-certificate {
   font-size: 2em;
   color: #b90504;
-}
-.social {
-  margin: 0;
-  padding: 0;
-}
-.social ul {
-  margin: 0;
-  padding: 5px;
-}
-.social ul li {
-  margin: 5px;
-  list-style: none outside none;
-  display: inline-block;
-}
-.social i {
-  width: 40px;
-  height: 40px;
-  color: #FFF;
-  background-color: #909AA0;
-  font-size: 22px;
-  text-align: center;
-  padding-top: 12px;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -o-border-radius: 50%;
-  transition: all ease 0.3s;
-  -moz-transition: all ease 0.3s;
-  -webkit-transition: all ease 0.3s;
-  -o-transition: all ease 0.3s;
-  -ms-transition: all ease 0.3s;
-}
-.social i:hover {
-  color: #FFF;
-  text-decoration: none;
-  transition: all ease 0.3s;
-  -moz-transition: all ease 0.3s;
-  -webkit-transition: all ease 0.3s;
-  -o-transition: all ease 0.3s;
-  -ms-transition: all ease 0.3s;
-}
-.social .fa-facebook {
-  background: #3b5998
 }
 .jumbotron {
   padding: 100px 25px;
@@ -175,4 +147,25 @@ div ul>li {
 }
 .google-plus {
   background: #dd4b39
+}
+
+/* Portrait phones and smaller */
+
+@media (max-width: 480px) {
+  #home {
+    padding: 100px 25px;
+    background: url('../images/sailboat-on-ocean.jpg') no-repeat 80% 0% fixed;
+    background-size: cover;
+    text-align: center;
+  }
+  h1.title {
+    font-size: 1.8em;
+    padding-top: 2em;
+  }
+  h3.title {
+    font-size: 1.2em;
+  }
+  .container-fluid {
+    padding-top: 80px;
+  }
 }

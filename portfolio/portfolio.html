@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfiolio</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header navbar-left">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-menu">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="digibrady-logo.png" alt="digibrady-logo" /></a>
+      </div>
+      <div class="collapse navbar-collapse" id="site-menu">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#work">WORK</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center">
+    <h1><strong>Bob<span class="red">Brady</span></strong></h1>
+    <img class="img-responsive" style="margin: auto" src="Full-Stack-Engineer-DigiBrady.png" alt="" />
+    <h2 class="red"><strong>I can get your job done</strong></h2>
+  </div>
+
+  <div id="about" class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-responsivet center-block" src="bob-brady-digibrady.jpg" width="300px" alt="" />
+      </div>
+      <div class="col-sm-6">
+        <h2 class="text-center">About</h2>
+        <p class="large-font">
+          My name is Bob Brady, aka DigiBrady. I’m a full stack software engineer. This means I have a broad skill set and can give you advice ranging from the operating system that is hosting your website to how to tweak your WordPress style sheets. The goal of
+          this website is to help you make well-informed decisions about your future or current websites.
+        </p>
+        <p class="large-font">
+          I have over 15 years of experience building web applications. I’m a Linux expert, having the coveted Red Hat Certified Engineer and CompTIA Linux+ certifications. My expertise in Java is also verified with a Oracle Certified Professional Java SE 7 certificate.
+          All of my skills are brought to bear on the pages here to help you understand your website problems and available solutions.
+        </p>
+        <button class="btn btn-default btn-lg">Get in Touch</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="container-fluid text-center bg-grey">
+    <h2>Services</h2>
+    <h3>What we offer</h3>
+    <hr>
+    <div class="row">
+      <div class="col-sm-4">
+        <i class="fa fa-pencil"></i>
+        <h4>Architecture/Design</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
+      <div class="col-sm-4">
+        <i class="fa fa-cogs"></i>
+        <h4>Back-End</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
+      <div class="col-sm-4">
+        <i class="fa fa-code"></i>
+        <h4>Front-End</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="work" class="container-fluid text-center">
+    <h2>Work</h2>
+    <h3>What I have created</h3>
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="xiao-blog-node-blog-engine-screen-shot.png" alt="QuadCopter" />
+          <p>
+            <strong>QuadCopter</strong>
+          </p>
+          <p>
+            Build with awesome tech
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="http://www.digibrady.com/wp-content/uploads/2015/04/sharp-reporter-bootstrap-responsive-theme-on-laptop.jpg" alt="Hiking" />
+          <p>
+            Hiking
+          </p>
+          <p>
+            We did this in the mountains
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="spaceshot.jpg" alt="Computer" />
+          <p>
+            My computer rig
+          </p>
+          <p>
+            This is what we use to code our programs
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="container-fluid text-center">
+    <h2>Contact</h2>
+    <h3>Feel free to contact me</h3>
+    <div class="row text-center">
+      <div class="col-sm-12 social">
+        <ul>
+          <li><a href="http://facebook.com/"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="http://linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="http://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="http://plus.google.com/"><i class="fa fa-google-plus"></i> </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("nav").find("li").on("click", "a", function() {
+        $('.navbar-collapse.in').collapse('hide');
+      });
+    });
+  </script>
+</body>
+
+</html>

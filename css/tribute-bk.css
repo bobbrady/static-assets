@@ -1,0 +1,42 @@
+.container {
+  width: 80%;
+  max-width: 1170px;
+  min-height: 780px;
+  height: 100%;
+  margin: 20px auto;
+  background-color: #f2f1ed;
+}
+
+header {
+  height: 150px;
+  background-color: lightgray;
+}
+
+.header-img {
+  height: 90%;
+  vertical-align: middle;
+}
+
+.header-title {
+  font-size: 2em;
+}
+
+.content {
+  background-color: lightblue;
+}
+
+.title {
+  text-align: center;
+}
+
+.content img {
+  display: block;
+  width: 85%;
+  margin: 10px auto;
+}
+
+.sidebar {
+  float: right;
+  width: 25%;
+  margin:
+}

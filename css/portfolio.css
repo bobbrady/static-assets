@@ -32,13 +32,17 @@ body {
 .page-view {
   min-height: 100vh;
 }
-
 #about {
   padding-top: 90px;
 }
 h1.title {
   padding-top: 3em;
   font-size: 4em;
+  font-family: Raleway, sans-serif;
+}
+
+.title {
+  font-family: Raleway, sans-serif;
 }
 .large-font {
   font-size: 1.2em;

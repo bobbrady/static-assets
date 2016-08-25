@@ -32,7 +32,17 @@ body {
 .page-view {
   min-height: 100vh;
 }
-#about, #skills {
+.page-view h4 {
+  font-size: 1.6em;
+  margin-left: 10px;
+}
+.page-view h4> i {
+  vertical-align: middle;
+}
+.page-view h5 {
+  font-size: 1.2em;
+}
+#about, #skills, #services {
   padding-top: 90px;
 }
 h1.title {
@@ -75,7 +85,7 @@ h1.title {
 }
 #skills div>ul {
   list-style-type: none;
-  display:  inline-block;
+  display: inline-block;
   padding-left: 35px;
 }
 #skills ul li {
@@ -83,15 +93,11 @@ h1.title {
   font-weight: bold;
   margin-top: 10px;
 }
-#skills li>ul {
-}
-
+#skills li>ul {}
 #skills ul>li>ul>li {
-text-align: left;
-margin-left: 50px;
+  text-align: left;
+  margin-left: 50px;
 }
-
-
 #skills ul li li {
   text-transform: none;
   font-weight: normal;
@@ -125,6 +131,7 @@ margin-left: 50px;
 }
 
 /* Portrait phones and smaller */
+
 @media (max-width: 480px) {
   .navbar ul li a {
     font-size: .9em;

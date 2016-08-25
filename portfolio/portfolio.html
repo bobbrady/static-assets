@@ -49,17 +49,21 @@
   <div id="about" class="container bg-grey page-view">
     <h2 class="page-title text-center red">About</h2>
     <div class="row">
-      <div class="col-sm-6">
-        <img class="img-responsivet center-block" src="../images/bob-brady-digibrady.jpg" width="300px" alt="" />
+      <div class="col-sm-4">
+        <img class="img-responsive center-block" src="../images/bob-brady-digibrady.jpg" width="300px" alt="" />
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-8">
         <p class="large-font">
-          My name is Bob Brady, aka DigiBrady. I’m a full stack software engineer. This means I have a broad skill set and can give you advice ranging from the operating system that is hosting your website to how to tweak your WordPress style sheets. The goal of
-          this website is to help you make well-informed decisions about your future or current websites.
+          My name is Bob Brady, aka DigiBrady. I’m a full stack software engineer. This means I have a broad skill set and can give you advice ranging from the styling of your website to the JavaScript controlling the behavior of your app to administering the deployment
+          in the Amazon cloud. The goal of this website is to help you make well-informed decisions about your future or current websites.
         </p>
         <p class="large-font">
-          I have over 15 years of experience building web applications. I’m a Linux expert, having the coveted Red Hat Certified Engineer and CompTIA Linux+ certifications. My expertise in Java is also verified with a Oracle Certified Professional Java SE 7 certificate.
-          All of my kkkkkku are brought to bear on the pages here to help you understand your website problems and available solutions.
+          I have over 15 years of experience building web applications. I've coded with the web trinity of JavaScript, HTML, and CSS from the beginning. The software stack I have used has varied over years from Perl/CGI/Apache to PHP/Wordpress to Java/JSP/Tomcat
+          to NodeJS/MVC/Templates/Nginx. And the stacks keep coming out! I've recently been working with ReactJS and ES6.
+        </p>
+        <p class="large-font">
+          I’m a Linux expert, having both Red Hat Engineer and CompTIA Linux certifications. My expertise in Java is also verified with a Oracle Certified Professional Java SE 7 certificate. All of my skills can be brought to bear to help you understand your website
+          problems and available solutions.
         </p>
       </div>
     </div>
@@ -70,7 +74,7 @@
     <h3 class="title">How I do my job</h3>
     <div class="row">
       <div class="col-md-4">
-        <h4 style="font-size: 1.6em; margin-left: 10px"><i style="vertical-align: middle" class="fa fa-cogs"></i> Backend</h4>
+        <h4><i class="fa fa-cogs"></i> Backend</h4>
         <ul>
           <li>
             Languages
@@ -112,7 +116,7 @@
         </ul>
       </div>
       <div class="col-md-4">
-        <h4 style="font-size: 1.6em; margin-left: 10px"><i style="vertical-align: middle" class="fa fa-code"></i> Frontend</h4>
+        <h4><i class="fa fa-code"></i> Frontend</h4>
         <ul>
           <li>
             HTML/CSS
@@ -146,7 +150,7 @@
         </ul>
       </div>
       <div class="col-md-4">
-        <h4 style="font-size: 1.6em; margin-left: 10px"><i style="vertical-align: middle" class="fa fa-flask"></i> Other</h4>
+        <h4><i class="fa fa-flask"></i> Other</h4>
         <ul>
           <li>
             Amazon Web Services Admin
@@ -179,222 +183,215 @@
     </div>
   </div>
 
-  <div id="services" class="container-fluid text-center bg-grey page-view">
+  <div id="services" class="container text-center bg-grey page-view">
     <h2 class="page-title red">Services</h2>
     <h3 class="title">What I can do for you</h3>
     <hr>
     <div class="row">
       <div class="col-sm-4">
-        <i class="fa fa-cogs"></i>
-        <h4>Backend</h4>
+        <h4><i class="fa fa-cogs"></i> Backend</h4>
+        <h5><strong>Coding</strong></h5>
         <ul>
           <li>Build RESTful APIs in Node.js, Java</li>
-          <li>Code and integrate microservices for decoupled flexibility</li>
-          <li>Implement Authentication/Authorization using standards like OAuth or BCrypt</li>
-          <li>Provide caching with open source Memcached or through a web server like Nginx</li>
-          <li>Create custom microservices using best-in-show open source like the Drools Rules Engine</li>
+          <li>Stand-up services quickly using best practices</li>
+          <li>Code and integrate microservices</li>
+          <li>Take advantage of open source like Drools Rules Engine</li>
+        </ul>
+        <h5><strong>Data</strong></h5>
+        <ul>
+          <li>Select the best type of DB: SQL | NoSQL</li>
+          <li>Design the data model</li>
+          <li>Tune and debug DB calls</li>
+        </ul>
+        <h5><strong>Security</strong></h5>
+        <ul>
+          <li>Use Authentication/Authorization standards like OAuth</li>
+          <li>Configure AWS cloud firewall rules</li>
+          <li>System monitoring for warning signs</li>
         </ul>
       </div>
       <div class="col-sm-4">
-        <i class="fa fa-code"></i>
-        <h4>Frontend</h4>
+        <h4><i class="fa fa-code"></i> Frontend</h4>
+        <h5><strong>Coding</strong></h5>
         <ul>
-          <li>Build RESTful APIs in Node.js, Java</li>
-          <li>Code and integrate microservices for decoupled flexibility</li>
-          <li>Implement Authentication/Authorization using standards like OAuth or BCrypt</li>
-          <li>Provide caching with open source Memcached or through a web server like Nginx</li>
-          <li>Create custom microservices using best-in-show open source like the Drools Rules Engine</li>
+          <li>Use Backbone.js, AngularJS, ReactJS browser-side</li>
+          <li>Develop modular, object-oriented code with design patterns</li>
+          <li>Quality assurance with linting, tests, coverage analysis</li>
+          <li>Take advantage of open source like Moment or Async</li>
+          <li>Ability to use jQuery to meet spec</li>
+        </ul>
+        <h5><strong>Styling</strong></h5>
+        <ul>
+          <li>Layout first, then style to spec</li>
+          <li>Preprocessors like Stylus for less churn</li>
         </ul>
       </div>
       <div class="col-sm-4">
-        <i class="fa fa-pencil"></i>
-        <h4>Architecture/Design</h4>
+        <h4><i class="fa fa-flask"></i> Other</h4>
+        <h5><strong>Architecture | Design</strong></h5>
         <ul>
-          <li>Build RESTful APIs in Node.js, Java</li>
-          <li>Code and integrate microservices for decoupled flexibility</li>
-          <li>Implement Authentication/Authorization using standards like OAuth or BCrypt</li>
-          <li>Provide caching with open source Memcached or through a web server like Nginx</li>
-          <li>Create custom microservices using best-in-show open source like the Drools Rules Engine</li>
+          <li>Work with client to identify use cases</li>
+          <li>Build out user stories from use cases</li>
+          <li>Work with client to ensure API meets spec</li>
+          <li>Plan microservice design up front, verify before code</li>
+          <li>Document architecture and design for client</li>
+        </ul>
+        <h5><strong>Amazon Web Service</strong></h5>
+        <ul>
+          <li>Create secure virtual public cloud for client</li>
+          <li>Create instances for microservice deployment</li>
+          <li>Configure 3rd party servers or load balancing</li>
+        </ul>
+        <h5><strong>Test | CI</strong></h5>
+        <ul>
+          <li>Configure CI server like Jenkins</li>
+          <li>Configure CI test runs after master check-in</li>
+          <li>Create unit, integration, UI, and load tests</li>
+          <li>Present CI results to client</li>
         </ul>
       </div>
     </div>
-    <div class="row">
-      <div class="col-sm-4">
-        <i class="fa fa-cubes"></i>
-        <h4>Infrastructure</h4>
-        <ul>
-          <li>Build RESTful APIs in Node.js, Java</li>
-          <li>Code and integrate microservices for decoupled flexibility</li>
-          <li>Implement Authentication/Authorization using standards like OAuth or BCrypt</li>
-          <li>Provide caching with open source Memcached or through a web server like Nginx</li>
-          <li>Create custom microservices using best-in-show open source like the Drools Rules Engine</li>
-        </ul>
-      </div>
-      <div class="col-sm-4">
-        <i class="fa fa-dashboard"></i>
-        <h4>Test</h4>
-        <ul>
-          <li>Build RESTful APIs in Node.js, Java</li>
-          <li>Code and integrate microservices for decoupled flexibility</li>
-          <li>Implement Authentication/Authorization using standards like OAuth or BCrypt</li>
-          <li>Provide caching with open source Memcached or through a web server like Nginx</li>
-          <li>Create custom microservices using best-in-show open source like the Drools Rules Engine</li>
-        </ul>
-      </div>
-      <div class="col-sm-4">
-        <i class="fa fa-certificate"></i>
-        <h4>Certified Engineering</h4>
-        <ul>
-          <li>Build RESTful APIs in Node.js, Java</li>
-          <li>Code and integrate microservices for decoupled flexibility</li>
-          <li>Implement Authentication/Authorization using standards like OAuth or BCrypt</li>
-          <li>Provide caching with open source Memcached or through a web server like Nginx</li>
-          <li>Create custom microservices using best-in-show open source like the Drools Rules Engine</li>
-        </ul>
-      </div>
-    </div>
-  </div>
 
-  <div id="work" class="container-fluid text-center page-view">
-    <h2 class="page-title red">Work</h2>
-    <h3 class="title">What I have created</h3>
-    <div class="row text-center">
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="../images/xiao-blog-node-blog-engine-screen-shot.png" alt="QuadCopter" />
-          <h4>XiaoBlog: MEAN stack blog engine</h4>
-          <ul>
-            <li>Build RESTful APIs in Node.js, Java</li>
-            <li>Code and integrate microservices for decoupled flexibility</li>
-            <li>Implement Authentication/Authorization using standards like OAuth or BCrypt</li>
-            <li>Provide caching with open source Memcached or through a web server like Nginx</li>
-            <li>Create custom microservices using best-in-show open source like the Drools Rules Engine</li>
-          </ul>
+    <div id="work" class="container-fluid text-center page-view">
+      <h2 class="page-title red">Work</h2>
+      <h3 class="title">What I have created</h3>
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="../images/xiao-blog-node-blog-engine-screen-shot.png" alt="QuadCopter" />
+            <h4>XiaoBlog: MEAN stack blog engine</h4>
+            <ul>
+              <li>Build RESTful APIs in Node.js, Java</li>
+              <li>Code and integrate microservices for decoupled flexibility</li>
+              <li>Implement Authentication/Authorization using standards like OAuth or BCrypt</li>
+              <li>Provide caching with open source Memcached or through a web server like Nginx</li>
+              <li>Create custom microservices using best-in-show open source like the Drools Rules Engine</li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="http://www.digibrady.com/wp-content/uploads/2015/04/sharp-reporter-bootstrap-responsive-theme-on-laptop.jpg" alt="Hiking" />
-          <h4>XiaoBlog: MEAN stack blog engine</h4>
-          <ul>
-            <li>Build RESTful APIs in Node.js, Java</li>
-            <li>Code and integrate microservices for decoupled flexibility</li>
-            <li>Implement Authentication/Authorization using standards like OAuth or BCrypt</li>
-            <li>Provide caching with open source Memcached or through a web server like Nginx</li>
-            <li>Create custom microservices using best-in-show open source like the Drools Rules Engine</li>
-          </ul>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="http://www.digibrady.com/wp-content/uploads/2015/04/sharp-reporter-bootstrap-responsive-theme-on-laptop.jpg" alt="Hiking" />
+            <h4>XiaoBlog: MEAN stack blog engine</h4>
+            <ul>
+              <li>Build RESTful APIs in Node.js, Java</li>
+              <li>Code and integrate microservices for decoupled flexibility</li>
+              <li>Implement Authentication/Authorization using standards like OAuth or BCrypt</li>
+              <li>Provide caching with open source Memcached or through a web server like Nginx</li>
+              <li>Create custom microservices using best-in-show open source like the Drools Rules Engine</li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="../images/spaceshot.jpg" alt="Computer" />
-          <h4>XiaoBlog: MEAN stack blog engine</h4>
-          <ul>
-            <li>Build RESTful APIs in Node.js, Java</li>
-            <li>Code and integrate microservices for decoupled flexibility</li>
-            <li>Implement Authentication/Authorization using standards like OAuth or BCrypt</li>
-            <li>Provide caching with open source Memcached or through a web server like Nginx</li>
-            <li>Create custom microservices using best-in-show open source like the Drools Rules Engine</li>
-          </ul>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="../images/spaceshot.jpg" alt="Computer" />
+            <h4>XiaoBlog: MEAN stack blog engine</h4>
+            <ul>
+              <li>Build RESTful APIs in Node.js, Java</li>
+              <li>Code and integrate microservices for decoupled flexibility</li>
+              <li>Implement Authentication/Authorization using standards like OAuth or BCrypt</li>
+              <li>Provide caching with open source Memcached or through a web server like Nginx</li>
+              <li>Create custom microservices using best-in-show open source like the Drools Rules Engine</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div id="contact" class="container-fluid text-center bg-grey page-view">
-    <h2 class="page-title red">Contact</h2>
-    <h3 class="title">Feel free to reach out to me</h3>
-    <div class="row text-center">
-      <div class="col-sm-12">
-        <ul class="list-inline">
-          <li>
-            <a href="mailto:">
-              <span class="fa-stack fa-lg">
+    <div id="contact" class="container-fluid text-center bg-grey page-view">
+      <h2 class="page-title red">Contact</h2>
+      <h3 class="title">Feel free to reach out to me</h3>
+      <div class="row text-center">
+        <div class="col-sm-12">
+          <ul class="list-inline">
+            <li>
+              <a href="mailto:">
+                <span class="fa-stack fa-lg">
                 <i class="fa fa-circle-thin fa-stack-2x"></i>
                 <i class="fa fa-envelope fa-stack-1x"></i>
               </span>
-            </a>
-          </li>
-          <li>
-            <a href="http://github.com/">
-              <span class="fa-stack fa-lg">
+              </a>
+            </li>
+            <li>
+              <a href="http://github.com/">
+                <span class="fa-stack fa-lg">
                 <i class="fa fa-circle-thin fa-stack-2x"></i>
                 <i class="fa fa-github fa-stack-1x"></i>
               </span>
-            </a>
-          </li>
-          <li>
-            <a href="http://facebook.com/">
-              <span class="fa-stack fa-lg">
+              </a>
+            </li>
+            <li>
+              <a href="http://facebook.com/">
+                <span class="fa-stack fa-lg">
                 <i class="fa fa-circle-thin fa-stack-2x"></i>
                 <i class="fa fa-facebook fa-stack-1x"></i>
               </span>
-            </a>
-          </li>
-        </ul>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12">
-        <ul class="list-inline">
-          <li>
-            <a href="http://twitter.com/">
-              <span class="fa-stack fa-lg">
+      <div class="row">
+        <div class="col-sm-12">
+          <ul class="list-inline">
+            <li>
+              <a href="http://twitter.com/">
+                <span class="fa-stack fa-lg">
                 <i class="fa fa-circle-thin fa-stack-2x"></i>
                 <i class="fa fa-twitter fa-stack-1x"></i>
               </span>
-            </a>
-          </li>
-          <li>
-            <a href="http://linkedin.com/">
-              <span class="fa-stack fa-lg">
+              </a>
+            </li>
+            <li>
+              <a href="http://linkedin.com/">
+                <span class="fa-stack fa-lg">
                 <i class="fa fa-circle-thin fa-stack-2x"></i>
                 <i class="fa fa-linkedin fa-stack-1x"></i>
               </span>
-            </a>
-          </li>
-          <li>
-            <a href="http://plus.google.com/">
-              <span class="fa-stack fa-lg">
+              </a>
+            </li>
+            <li>
+              <a href="http://plus.google.com/">
+                <span class="fa-stack fa-lg">
                 <i class="fa fa-circle-thin fa-stack-2x"></i>
                 <i class="fa fa-google-plus fa-stack-1x"></i>
               </span>
-            </a>
-          </li>
-        </ul>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script>
-    $(document).ready(function() {
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
 
-      // Fix for "hamburger menu" not collapsing after a click on menu item
-      $("nav").find("li").on("click", "a", function() {
-        $('.navbar-collapse.in').collapse('hide');
+        // Fix for "hamburger menu" not collapsing after a click on menu item
+        $("nav").find("li").on("click", "a", function() {
+          $('.navbar-collapse.in').collapse('hide');
+        });
+
+        // Add smooth scrolling to all nav links
+        $(".navbar a, footer a[href='#home']").on('click', function(event) {
+          // Don't scroll if on a mobile phone, it's too awkward
+          if (this.hash !== "" && $(window).width() > 480) {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+            // Store hash
+            var hash = this.hash;
+            // Scroll to hash tag in 900 ms
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 900, function() {
+              // Add hash (#) to URL when done scrolling
+              window.location.hash = hash;
+            });
+          }
+        });
+
       });
-
-      // Add smooth scrolling to all nav links
-      $(".navbar a, footer a[href='#home']").on('click', function(event) {
-        // Don't scroll if on a mobile phone, it's too awkward
-        if (this.hash !== "" && $(window).width() > 480) {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-          // Store hash
-          var hash = this.hash;
-          // Scroll to hash tag in 900 ms
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 900, function() {
-            // Add hash (#) to URL when done scrolling
-            window.location.hash = hash;
-          });
-        }
-      });
-
-    });
-  </script>
+    </script>
 </body>
 
 </html>

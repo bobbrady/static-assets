@@ -32,7 +32,7 @@ body {
 .page-view {
   min-height: 100vh;
 }
-#about {
+#about, #skills {
   padding-top: 90px;
 }
 h1.title {
@@ -66,14 +66,38 @@ h1.title {
   height: 100%;
   margin-bottom: 10px;
 }
-div ul {
+#services ul {
   width: auto;
   display: inline-block;
 }
-div ul>li {
+#services ul>li {
   text-align: left;
 }
-.fa-pencil, .fa-cogs, .fa-code, .fa-cubes, .fa-dashboard, .fa-certificate {
+#skills div>ul {
+  list-style-type: none;
+  display:  inline-block;
+  padding-left: 35px;
+}
+#skills ul li {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#skills li>ul {
+}
+
+#skills ul>li>ul>li {
+text-align: left;
+margin-left: 50px;
+}
+
+
+#skills ul li li {
+  text-transform: none;
+  font-weight: normal;
+  margin-top: 0;
+}
+.fa-pencil, .fa-cogs, .fa-code, .fa-cubes, .fa-dashboard, .fa-certificate, .fa-flask {
   font-size: 2.5em;
   color: black;
 }
@@ -101,7 +125,6 @@ div ul>li {
 }
 
 /* Portrait phones and smaller */
-
 @media (max-width: 480px) {
   .navbar ul li a {
     font-size: .9em;
